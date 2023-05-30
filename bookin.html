@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Room Booking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1 style="text-align: center; color: white;">THAMIZH HOTEL</h1>
+        <h2 style="text-align: center; color:cadetblue;">Make your reservation</h2>
+        
+    </div>
+
+    
+<div id="booking" class="section">
+    <div class="section-center">
+        <div class="container">
+            <div class="row">
+                <div class="booking-form">
+                    <form>
+                        <div class="group"> <input class="control" type="text" placeholder="Country, ZIP, city...">
+                        <span class="form-label">Destination </style></span> 
+                        </div>
+
+                        <div class="row">
+                                <div class="group"> <input class="control" type="date" required> 
+                                    <span class="label">Check In</span> 
+                                </div>
+                                <div class="group"> <input class="control" type="date" required> 
+                                    <span class="label">Check out</span> </div>
+                            </div>
+                        <div class="row">
+                                <div class="group"> <select class="control" required>
+                                        <option value="" selected hidden>no of rooms</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select> <span class="select-arrow"></span> <span class="label">Rooms</span> </div>
+                            
+                                <div class="group"> <select class="control" required>
+                                        <option value="" selected hidden>no of adults</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select> <span class="select-arrow"></span>
+                                    <span class="label">Adults</span> </div>
+                                <div class="group"> <select class="control" required>
+                                        <option value="" selected hidden>no of children</option>
+                                        <option>0</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                    </select> <span class="select-arrow"></span> 
+                                    <span class="label">Children</span> </div>
+                            </div>
+                        <div class="row">
+                                <div class="group"> <input class="control" type="email" placeholder="Enter your Email"> 
+                                <span class="label">Email</span> </div>
+                                <div class="group"> <input class="control" type="tel" placeholder="Enter you Phone">
+                                <span class="label">Phone</span> </div>
+                        </div>
+                        <div class="btn"> <button class="submit-btn">Book Now</button> </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
